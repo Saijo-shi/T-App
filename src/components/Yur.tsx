@@ -3,19 +3,31 @@ import {
   EuiFieldText,
   EuiFlexGroup,
   EuiTextArea,
+  EuiButton,
+  EuiFlexItem,
 } from "@elastic/eui";
-import { euiFlexGroupStyles } from "@elastic/eui/src/components/flex/flex_group.styles";
 
 const Yur = () => {
   return (
-    <EuiFlexGroup direction="column">
-      <EuiFormRow label="Наименование организации">
-        <EuiFieldText name="company-name" />
-      </EuiFormRow>
-      <EuiFormRow label="Результат запроса">
-        <EuiTextArea />
-      </EuiFormRow>
-    </EuiFlexGroup>
+    <div>
+      <EuiFlexGroup>
+        <EuiFlexItem>
+          <EuiFormRow label="Наименование организации">
+            <EuiFieldText name="company-name" />
+          </EuiFormRow>
+        </EuiFlexItem>
+        <EuiFlexItem>
+          <EuiFormRow hasEmptyLabelSpace>
+            <EuiButton>Запросить данные</EuiButton>
+          </EuiFormRow>
+        </EuiFlexItem>
+      </EuiFlexGroup>
+      <EuiFlexGroup>
+        <EuiFormRow label="Результат запроса">
+          <EuiTextArea />
+        </EuiFormRow>
+      </EuiFlexGroup>
+    </div>
   );
 };
 
