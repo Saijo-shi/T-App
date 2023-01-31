@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './pages/header';
+import Header from './pages/Header';
 import './App.css'
 import TabContent from './components/tabContent';
 
