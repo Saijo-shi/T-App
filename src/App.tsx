@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './pages/Header';
 import './App.css'
-import TabContent from './components/tabContent';
+import TabContent from './components/TabContent';
 
 
 
