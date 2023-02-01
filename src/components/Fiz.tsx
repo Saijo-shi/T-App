@@ -38,7 +38,7 @@ const Fiz = () => {
         </EuiFlexItem>
       </EuiFlexGroup>
       <EuiFlexGroup>
-        <EuiFormRow label="Результат запроса">
+        <EuiFormRow label="Результат">
           <EuiTextArea />
         </EuiFormRow>
       </EuiFlexGroup>
