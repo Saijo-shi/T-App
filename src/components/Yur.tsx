@@ -12,7 +12,7 @@ const Yur = () => {
       <EuiFormRow label="Наименование организации">
         <EuiFieldText name="company-name" />
       </EuiFormRow>
-      <EuiFormRow label="Результат">
+      <EuiFormRow label="Результат запроса">
         <EuiTextArea />
       </EuiFormRow>
     </EuiFlexGroup>
