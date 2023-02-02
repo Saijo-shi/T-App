@@ -3,7 +3,7 @@ import tabs from "./tabs";
 import { EuiTabbedContent, EuiTabbedContentTab } from "@elastic/eui";
 
 const TabContent = () => {
-  const [selectedTab, setSelectedTab] = useState(tabs[1]);
+  const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
   const onTabClick = (selectedTab: EuiTabbedContentTab) => {
     setSelectedTab(selectedTab);
