@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import tabs from "./tabs";
+import tabs from "./Tabs";
 import { EuiTabbedContent, EuiTabbedContentTab } from "@elastic/eui";
 
 const TabContent = () => {

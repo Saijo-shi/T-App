@@ -4,7 +4,7 @@ import {
   EuiFlexGroup,
   EuiTextArea,
 } from "@elastic/eui";
-import { euiFlexGroupStyles } from "@elastic/eui/src/components/flex/flex_group.styles";
+
 
 const Yur = () => {
   return (
