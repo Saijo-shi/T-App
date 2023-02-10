@@ -9,7 +9,7 @@ import {
 
 const Header = () => {
   return (
-    <EuiFlexGroup className="header-section">
+    <EuiFlexGroup className="header-section" style={{marginTop: '100px', marginBottom: '100px'}}>
       <EuiFlexItem grow={false}>
         <EuiLink href="index.html">
           <EuiIcon type="logoSecurity" size="xxl" href="#" />

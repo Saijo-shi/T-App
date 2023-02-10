@@ -8,7 +8,6 @@ const TabContent = () => {
   const onTabClick = (selectedTab: EuiTabbedContentTab) => {
     setSelectedTab(selectedTab);
   };
-
   return (
     <Fragment>
       <EuiTabbedContent

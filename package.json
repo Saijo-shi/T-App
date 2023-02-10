@@ -7,20 +7,15 @@
     "@elastic/eui": "^72.0.0",
     "@emotion/css": "^11.10.5",
     "@emotion/react": "^11.10.5",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
     "axios": "^1.2.1",
     "moment": "^2.29.4",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
-    },
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "prop-types": "^15.8.1",
     "@types/react-dom": "^18.0.10",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",

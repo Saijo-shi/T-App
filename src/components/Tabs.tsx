@@ -1,22 +1,17 @@
-
 import { EuiTabbedContentProps } from "@elastic/eui";
-import Yur from './Yur';
-import Fiz from './Fiz';
+import Yur from "./Yur";
+import Fiz from "./Fiz";
 
 const tabs: EuiTabbedContentProps["tabs"] = [
   {
     id: "fiz",
     name: "Физические лица",
-    content: (
-      <Fiz />
-    ),
+    content: <Fiz />,
   },
   {
     id: "yur",
     name: "Юридические лица",
-    content: (
-      <Yur />
-    ),
+    content: <Yur />,
   },
 ];
-    export default tabs
+export default tabs;

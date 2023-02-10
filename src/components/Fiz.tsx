@@ -10,35 +10,35 @@ import {
 const Fiz = () => {
   return (
     <div>
-      <EuiFlexGroup style={{ maxWidth: 600 }}>
+      <EuiFlexGroup style={{ marginTop: '60px', marginBottom: '60px' }}>
         <EuiFlexItem>
-          <EuiFormRow label="Фамилия">
+          <EuiFormRow label="Фамилия" style={{fontSize:'20px'}}>
             <EuiFieldText />
           </EuiFormRow>
         </EuiFlexItem>
         <EuiFlexItem>
-          <EuiFormRow label="Имя">
+          <EuiFormRow label="Имя" style={{fontSize:'20px'}}>
             <EuiFieldText />
           </EuiFormRow>
         </EuiFlexItem>
         <EuiFlexItem>
-          <EuiFormRow label="Отчество">
+          <EuiFormRow label="Отчество" style={{fontSize:'20px'}}>
             <EuiFieldText />
           </EuiFormRow>
         </EuiFlexItem>
         <EuiFlexItem>
-          <EuiFormRow label="Дата рождения">
+          <EuiFormRow label="Дата рождения" style={{fontSize:'20px'}}>
             <EuiFieldText />
           </EuiFormRow>
         </EuiFlexItem>
-        <EuiFlexItem grow={false}>
+        <EuiFlexItem>
           <EuiFormRow hasEmptyLabelSpace>
-            <EuiButton>Запросить данные</EuiButton>
+            <EuiButton style={{fontSize:'20px'}}>Запросить данные</EuiButton>
           </EuiFormRow>
         </EuiFlexItem>
       </EuiFlexGroup>
       <EuiFlexGroup>
-        <EuiFormRow label="Результат">
+        <EuiFormRow label="Результат" style={{fontSize:'20px'}}>
           <EuiTextArea />
         </EuiFormRow>
       </EuiFlexGroup>
