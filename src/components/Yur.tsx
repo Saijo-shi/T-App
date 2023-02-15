@@ -6,19 +6,22 @@ import {
   EuiFlexItem,
   EuiSplitPanel,
   EuiText,
+  EuiPanel,
 } from "@elastic/eui";
 
 const Yur = () => {
   return (
     <div>
+      <EuiPanel hasBorder={true}  style={{marginTop: '30px'}}>
+  
       <EuiFlexGroup
-        style={{ marginTop: "60px", marginBottom: "60px", color: "#36A2EF" }}
+        style={{ marginTop: "25px", marginBottom: "40px", color: "#36A2EF" }}
       >
         <EuiFormRow
           label="Наименование организации"
-          style={{ fontSize: "20px" }}
+          style={{ fontSize: "20px"}}
         >
-          <EuiFieldText name="company-name" style={{height: '30px'}}/>
+          <EuiFieldText name="company-name" style={{height: '30px', marginTop: '20px' }}/>
         </EuiFormRow>
       </EuiFlexGroup>
       <EuiFlexGroup>
@@ -28,7 +31,7 @@ const Yur = () => {
           </EuiButton>
         </EuiFlexItem>
         <EuiFlexItem>
-          <EuiSplitPanel.Outer>
+          <EuiSplitPanel.Outer color="primary" style={{marginBottom: '25px'}}>
             <EuiSplitPanel.Inner style={{ color: "#36A2EF" }}>
               <EuiFlexGroup>
                 <EuiFlexItem>
@@ -40,8 +43,8 @@ const Yur = () => {
                   </EuiButton>
                 </EuiFlexItem>
               </EuiFlexGroup>
-            </EuiSplitPanel.Inner>
-            <EuiSplitPanel.Inner color="subdued">
+            </EuiSplitPanel.Inner >
+            <EuiSplitPanel.Inner color="subdued" >
               <EuiText>
                 <p className="ResultYur"></p>
               </EuiText>
@@ -49,6 +52,7 @@ const Yur = () => {
           </EuiSplitPanel.Outer>
         </EuiFlexItem>
       </EuiFlexGroup>
+</EuiPanel>
     </div>
   );
 };
